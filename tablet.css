@@ -52,4 +52,5 @@ td:nth-child(3) {
 }
 .seccion-3__img-adopcion{
     max-height: 500px;
+    box-shadow: 0 4px 7px var(--black);
 }
