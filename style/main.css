@@ -34,7 +34,7 @@ html{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-width: 320px;
+    /* min-width: 320px; */
     height: 334px;
     text-align: center;
     background: linear-gradient(207.8deg, var(--secondary-blue) 16.69%, var(--bitcoin-purple) 100%);
@@ -85,6 +85,11 @@ html{
     font-weight: bold;
     text-decoration: none;
     color: var(--black);  
+}
+.header__title-container .header__button:hover{
+    background: linear-gradient(207.8deg, #005884 16.69%, var(--bitcoin-purple) 100%);
+    color: var(--just-white);
+    box-shadow: 0px 4px 0px var(--black);
 }
 .header__button-icon{
     display: inline-block;
@@ -212,6 +217,11 @@ html{
     border-radius: 10px;
     background-color: var(--thretteary-blue);
     box-shadow: 0 4px 2px var(--black);
+    transition: .5s;
+}
+.seccion-card:hover{
+    box-shadow: 0 4px 2px var(--off-white);
+    background-color: #00486ca0; 
 }
 .seccion-2__card-title{
     font-size:var(--font-title-card);
@@ -286,8 +296,9 @@ html{
     background-color: var(--just-white);
 }
 .seccion-3__button-adoption:hover{
+    background: linear-gradient(207.8deg, #005884 16.69%, var(--bitcoin-purple) 100%);
     color: var(--just-white);
-    background-color: var(--bitcoin-purple);
+    box-shadow: 0px 4px 0px var(--black);
 }
 .material-symbols-outlined {
     margin-left: 10px;
@@ -296,7 +307,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(207.8deg, var(--secondary-blue) 16.69%, var(--bitcoin-purple) 100%);
+    background: linear-gradient(207.8deg, #005884 16.69%, var(--bitcoin-purple) 100%);
     box-shadow: 02px 0px 7px var(--black);
 }
 .container__fo-link{
