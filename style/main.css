@@ -65,7 +65,7 @@ html{
     margin-top: 25px;
     font-weight: 500;
     line-height: 1.8rem;
-    /* min-width: 320px; */
+    /* min-width: 320px; ¿*/
     color: var(--soft-orange);
 }
 .header__title-container .header__button {
@@ -133,6 +133,7 @@ html{
 .seccion-1__tablet-table{
     text-align: center;
     padding: 5px;
+    margin-bottom: 40px;
     font-family: "Inter" , sans-serif;
     box-shadow: -2px 4px 15px var(--black);
     border-radius: 10px;
@@ -152,7 +153,6 @@ html{
 }
 .seccion-1__update-container{
     padding: 10px;
-    margin-top: 45px;
     margin-bottom: 28px;
     background-color: var(--secondary-blue);
     border-radius: 5px;
@@ -225,7 +225,6 @@ html{
 .seccion-3{
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: var(--off-white);
 }
 .seccion-3__container__img-adopcion {
@@ -236,32 +235,40 @@ html{
 }
 .seccion-3__card-container-adopcion {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 100%;
-    margin-bottom: 40px;
+    height: 416px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+    gap: 30px;
 }
 .seccion-3__title-adoption {
-    text-align: center;
-    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -150%);    
     font-size: var(--font-title);
-}
-.seccion3-card-adopcion {
+    color: var(--just-white);
+    text-shadow: 2px 4px 3px var(--bitcoin-purple);
+    font-family: "Inter" , sans-serif;
+}  
+.seccion-3__card-adopcion {
     display: flex;
+    scroll-snap-align: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
-    height: auto;
+    min-width: 260px; /* Agregado */
     width: 75%;
     max-width: 400px;
-    padding: 15px 10px;
+    padding: 15px 50px;
     border-radius: 10px;
     background-color: var(--thretteary-blue);
     box-shadow: 0 4px 2px var(--black);
-}
+  } 
 .seccion-3__card-icon-adopcion {
-    width: 100%;
+    width: 190px;
     height: 180px;
+    border-radius: 4px;
 }
 .seccion-3__card-title-adopcion {
     margin-top: 15px;
@@ -272,7 +279,7 @@ html{
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    width: 80%;
+    /* width: 80%; */
     padding: 10px;
     font-size: 1.8rem;
     text-decoration: none;
@@ -319,6 +326,7 @@ html{
     background-color: var(--bitcoin-purple);
 }
 .fo__link-2{
+    margin-left: 6px;
     color: var(--just-white);
     font-size: 1.5rem;
 }
