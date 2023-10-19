@@ -1,0 +1,55 @@
+:root{
+    --font-title: 3.0rem;
+    --font-subtitle: 2.0rem;
+    --font-title-card: 1.9rem;
+    --font-subtitle-card: 1.6rem;
+}
+.header__title-container .header__button {
+    margin-top: 35px;
+    padding: 15px 5px 15px 24px;
+    width: 270px;
+    height: 48px;
+}
+.seccion-1__cat-image{
+    width: 300px;
+    height: 320px;
+}
+.seccion-1__tablet-table {
+    width: 70%;
+}
+td:nth-child(3) {
+    justify-content: center;
+}
+.seccion-1__update-text {
+    font-size: var(--font-subtitle-card)
+}
+.seccion-2__card-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 930px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 0;
+    gap: 40px;
+}
+.seccion-3__card-container-adopcion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 930px;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 0;
+}
+
+.seccion-3__card-adopcion{
+    justify-content: center;
+}
+.seccion-3__card-icon-adopcion{
+    width: 100%;
+}
+.seccion-3__img-adopcion{
+    max-height: 500px;
+}
