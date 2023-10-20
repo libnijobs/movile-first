@@ -28,17 +28,23 @@ td:nth-child(3) {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 930px;
+    min-width: 800px;    
+    width: 60%;
     margin: 0 auto;
     height: auto;
     padding: 20px 0;
     gap: 40px;
 }
+.seccion-card {
+    width: 78%;
+    max-width: 300px;
+}
 .seccion-3__card-container-adopcion{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 930px;
+    min-width: 800px;
+    width: 60%;
     margin: 0 auto;
     height: auto;
     padding: 20px 0;
@@ -47,6 +53,7 @@ td:nth-child(3) {
 
 .seccion-3__card-adopcion{
     justify-content: center;
+    max-width: 300px;
 }
 .seccion-3__card-icon-adopcion{
     width: 100%;
