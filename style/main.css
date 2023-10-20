@@ -176,6 +176,7 @@ html{
 }
 .seccion-1__img-icon-cat{
     width: 40px;
+    height: 40px;
 }
 .seccion-2{
     display: flex;
@@ -206,8 +207,11 @@ html{
     display: flex;
     flex-direction: column;
     align-items:center;
-    width: 100%;
-    
+    width: 100%; 
+}
+.seccion-2__card-icon{
+    width: 50px;
+    height: 50px;
 }
 .seccion-card{
     margin-bottom: 40px;
